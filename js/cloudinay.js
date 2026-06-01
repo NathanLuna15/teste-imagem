@@ -3,7 +3,7 @@
 const CLOUD_NAME = 'daxpl0xw3'     
 const UPLOAD_PRESET = 'fotos_contato' 
 
-export async function uploadParaCloudinary(file) {
+export async function uploadParaCloudinary(fil,je) {
     const formData = new FormData()
     formData.append('file', file)
     formData.append('upload_preset', UPLOAD_PRESET)
